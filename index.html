@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portal de acceso a las plataformas de métricas de Biblioteca UTEM."
+    />
+    <meta name="theme-color" content="#605be5" />
+    <title>Portal de Métricas | Biblioteca UTEM</title>
+    <link rel="icon" type="image/jpeg" href="img/Utem.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient--violet" aria-hidden="true"></div>
+    <div class="ambient ambient--orange" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand__logo-wrap">
+          <img class="brand__logo" src="img/Utem.jpg" alt="Logo UTEM" />
+        </span>
+        <span class="brand__copy">
+          <strong>Biblioteca UTEM</strong>
+          <small>Universidad Tecnológica Metropolitana</small>
+        </span>
+      </a>
+      <span class="status"><i aria-hidden="true"></i> Servicios digitales</span>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow"><span aria-hidden="true">✦</span> Portal institucional</div>
+        <h1 id="page-title">
+          Toda la información,<br />
+          <span>en un solo lugar.</span>
+        </h1>
+        <p>
+          Accede de forma rápida y segura a los paneles de métricas de los
+          servicios digitales de Biblioteca UTEM.
+        </p>
+        <a class="hero__cue" href="#plataformas">
+          Explorar plataformas
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="platforms" id="plataformas" aria-labelledby="platforms-title">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Accesos directos</span>
+            <h2 id="platforms-title">Plataformas de métricas</h2>
+          </div>
+          <p>Selecciona el servicio que deseas consultar.</p>
+        </div>
+
+        <div class="cards">
+          <a
+            class="metric-card metric-card--koha reveal"
+            href="https://catalogobiblioteca.utem.cl/metricas/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Métricas Koha en una pestaña nueva"
+          >
+            <span class="metric-card__glow" aria-hidden="true"></span>
+            <span class="metric-card__top">
+              <span class="metric-card__number">01</span>
+              <span class="metric-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" /></svg>
+              </span>
+            </span>
+            <span class="metric-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M10 11.5a5 5 0 0 1 5-5h23v31H15a5 5 0 0 0-5 5v-31Z" />
+                <path d="M10 42.5a5 5 0 0 1 5-5h23M18 15h12M18 22h12" />
+              </svg>
+            </span>
+            <span class="metric-card__content">
+              <span class="metric-card__tag">Catálogo bibliográfico</span>
+              <strong>Koha</strong>
+              <span>Consulta el panel de métricas del catálogo de Biblioteca UTEM.</span>
+            </span>
+            <span class="metric-card__footer">
+              Ingresar al panel <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+
+          <a
+            class="metric-card metric-card--dspace reveal"
+            href="https://sibutemdig.utem.cl/monitor-estadisticas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Métricas DSpace en una pestaña nueva"
+          >
+            <span class="metric-card__glow" aria-hidden="true"></span>
+            <span class="metric-card__top">
+              <span class="metric-card__number">02</span>
+              <span class="metric-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" /></svg>
+              </span>
+            </span>
+            <span class="metric-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="m24 5 17 9-17 9L7 14l17-9Z" />
+                <path d="m11 19-4 2 17 9 17-9-4-2M11 26l-4 2 17 9 17-9-4-2M11 33l-4 2 17 9 17-9-4-2" />
+              </svg>
+            </span>
+            <span class="metric-card__content">
+              <span class="metric-card__tag">Repositorio digital</span>
+              <strong>DSpace</strong>
+              <span>Revisa las estadísticas del repositorio digital institucional.</span>
+            </span>
+            <span class="metric-card__footer">
+              Ingresar al panel <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+
+          <a
+            class="metric-card metric-card--myloft reveal"
+            href="https://dashboard-myloft.igniteonline.la/instituciones/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Métricas MyLOFT en una pestaña nueva"
+          >
+            <span class="metric-card__glow" aria-hidden="true"></span>
+            <span class="metric-card__top">
+              <span class="metric-card__number">03</span>
+              <span class="metric-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" /></svg>
+              </span>
+            </span>
+            <span class="metric-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M8 39V9M8 39h32" />
+                <path d="M15 34v-9h6v9M26 34V14h6v20M37 34V20h6v14" />
+              </svg>
+            </span>
+            <span class="metric-card__content">
+              <span class="metric-card__tag">Recursos electrónicos</span>
+              <strong>MyLOFT</strong>
+              <span>Accede al dashboard de uso de recursos electrónicos institucionales.</span>
+            </span>
+            <span class="metric-card__footer">
+              Ingresar al panel <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <div class="site-footer__brand">
+        <img src="img/Utem.jpg" alt="UTEM" />
+        <span></span>
+        <img src="img/logo%20ignite.png" alt="Ignite" />
+      </div>
+      <p>Portal de métricas · Biblioteca UTEM</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
